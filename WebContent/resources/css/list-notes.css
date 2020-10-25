@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+
+body {
+	font-size: 1em !important;
+   	font-family: Comic Sans MS !important;
+}
+
+/* unvisited link */
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color:#4da6ff;
+  text-decoration: underline;
+
+}
+
+/* selected link */
+a:active {
+  color:#4da6ff;
+  text-decoration: underline;
+  
+}
+
+table {   
+	border-collapse:collapse;
+	border-bottom:1px solid gray;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+
+
+td {
+	width:400;
+	height:400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 24%;
+  padding: 10px;
+  height: 300px;
+  position:relative;
+  background-color: #ffffbd;
+  margin-left:5px;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#bottom-right
+{
+right: 0;
+bottom: 0;
+position: absolute;
+font-size:12px;
+}
+
+#mainHeader
+{
+	text-align:center;
+}
+#topHeader
+{
+	text-align:right;
+}

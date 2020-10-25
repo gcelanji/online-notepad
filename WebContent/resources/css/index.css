@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+html,body {
+  height:80%;
+  width:100%;
+  margin:0;
+}
+body {
+  display:flex;
+  font-size: 1.2em !important;
+  font-family: Comic Sans MS !important;
+}
+
+#header{
+	text-align:center;
+}
+	
+	 /* unvisited link */
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color:#4da6ff;
+  text-decoration: underline;
+
+}
+
+/* selected link */
+a:active {
+  color:#4da6ff;
+  text-decoration: underline;
+  
+} 
+
+#Links{
+	height: 200px;
+	width: 400px;
+	margin:0 auto;
+	position:relative;
+	margin:auto;
+    text-align:center;
+}
+
+
+
+#signUp{
+	display: inline-block;
+	width: 256px;
+	margin: 16px;
+	padding: 4px;
+	background-color:  #ffffbd;
+	border: 1px solid #e0e0d1;
+}
+
+#signIn{
+	display: inline-block;
+	width: 256px;
+	margin: 16px;
+	padding: 4px;
+	background-color:  #ffffbd;
+	border: 1px solid #e0e0d1;
+}
