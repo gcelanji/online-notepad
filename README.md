@@ -1,2 +1,2 @@
 # Online-Notepad
-Creating, Reading, Updating and Deleting notes online.
+Creating, Reading, Updating and Deleting notes.
