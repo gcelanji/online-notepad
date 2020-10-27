@@ -3,3 +3,5 @@ Spring MVC & Hibernate CRUD Application. It implements the functions of Creating
 For the view model was used JSP technology with embedded Javascript as well.
 
 It was built for learning purposes.
+
+![](https://github.com/gcelanji/Online-Notepad/blob/main/Online-Notepad-Sample.gif)
